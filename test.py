@@ -29,7 +29,8 @@ def main():
         print(f"Age: {age}")
         print(f"Nationality: {nationality or 'N/A'}")
     else:
-        print("Info not shown.")
+        print("No Info.")
 
 if __name__ == "__main__":
     main()
+    #end of test.py
