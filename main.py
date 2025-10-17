@@ -7,7 +7,7 @@ def get_int(prompt):
         try:
             return int(s)
         except ValueError:
-            print("Please enter a valid integer.")
+            print("Please enter a valid information.")
 
 def yes_no(prompt):
     while True:
@@ -21,13 +21,13 @@ def yes_no(prompt):
 def main():
     name = input("Enter your name: ").strip()
     age = get_int("Enter your age: ")
-    nationality = input("Enter your nationality: ").strip()
+    city = input("Enter your place of residency: ").strip()
 
     if yes_no("Show info? (y/n): "):
         print("\nGeneral info:")
         print(f"Name: {name or 'N/A'}")
         print(f"Age: {age}")
-        print(f"Nationality: {nationality or 'N/A'}")
+        print(f"City: {city or 'N/A'}")
     else:
         print("No Info.")
 
