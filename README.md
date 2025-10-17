@@ -1,2 +1,2 @@
-# questionaire
-simple questionare on name, age and city
+# questionnaire
+simple questionnaire on name, age and city
